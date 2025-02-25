@@ -75,11 +75,224 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "App",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference\\app\\get-debug-sentry"
+      ]
+    },
+    {
+      "group": "File",
+      "pages": [
+        "api-reference\\file\\upload-file"
+      ]
+    },
+    {
+      "group": "Health",
+      "pages": [
+        "api-reference\\health\\check-site-health"
+      ]
+    },
+    {
+      "group": "Authentication",
+      "pages": [
+        "api-reference\\authentication\\check-email",
+        "api-reference\\authentication\\register",
+        "api-reference\\authentication\\login",
+        "api-reference\\authentication\\change-password",
+        "api-reference\\authentication\\request-code",
+        "api-reference\\authentication\\forgot-password",
+        "api-reference\\authentication\\reset-password",
+        "api-reference\\authentication\\verify-email"
+      ]
+    },
+    {
+      "group": "Users",
+      "pages": [
+        "api-reference\\users\\get-user-info",
+        "api-reference\\users\\update-user-info"
+      ]
+    },
+    {
+      "group": "Student",
+      "pages": [
+        "api-reference\\student\\get-student-enrollments",
+        "api-reference\\student\\get-student-information",
+        "api-reference\\student\\update-student-profile",
+        "api-reference\\student\\delete-a-student"
+      ]
+    },
+    {
+      "group": "Course",
+      "pages": [
+        "api-reference\\course\\get-all-course-sections",
+        "api-reference\\course\\create-a-new-course-section",
+        "api-reference\\course\\get-a-specific-course-section-by-its-id",
+        "api-reference\\course\\update-a-course-section",
+        "api-reference\\course\\delete-a-course-section",
+        "api-reference\\course\\get-all-course-subsections",
+        "api-reference\\course\\create-a-new-course-subsection",
+        "api-reference\\course\\get-a-specific-course-subsection-by-its-id",
+        "api-reference\\course\\update-a-course-subsection",
+        "api-reference\\course\\delete-a-course-subsection",
+        "api-reference\\course\\get-all-course-items",
+        "api-reference\\course\\create-a-new-course-item",
+        "api-reference\\course\\get-a-specific-course-item-by-its-id",
+        "api-reference\\course\\update-a-course-item",
+        "api-reference\\course\\delete-a-course-item",
+        "api-reference\\course\\download-a-course-item",
+        "api-reference\\course\\get-all-levels",
+        "api-reference\\course\\get-all-courses",
+        "api-reference\\course\\create-a-new-course",
+        "api-reference\\course\\get-a-specific-course-by-its-slug",
+        "api-reference\\course\\get-a-specific-course-by-its-id",
+        "api-reference\\course\\update-a-course",
+        "api-reference\\course\\delete-a-course",
+        "api-reference\\course\\get-all-record-for-course-property",
+        "api-reference\\course\\create-a-course-property",
+        "api-reference\\course\\get-a-course-property-single-record",
+        "api-reference\\course\\update-a-course-property-single-record",
+        "api-reference\\course\\delete-a-course-property-record"
+      ]
+    },
+    {
+      "group": "Consultation",
+      "pages": [
+        "api-reference\\consultation\\create-a-new-booking",
+        "api-reference\\consultation\\get-all-consultations",
+        "api-reference\\consultation\\create-a-new-consultation",
+        "api-reference\\consultation\\get-unique-dates-for-a-consultation",
+        "api-reference\\consultation\\get-unique-periods-for-a-consultation",
+        "api-reference\\consultation\\get-a-specific-consultation-by-its-id",
+        "api-reference\\consultation\\update-a-consultation",
+        "api-reference\\consultation\\delete-a-consultation",
+        "api-reference\\consultation\\update-details-for-a-one-off-consultation",
+        "api-reference\\consultation\\details-for-a-one-off-consultation",
+        "api-reference\\consultation\\update-details-for-a-recurring-consultation",
+        "api-reference\\consultation\\details-for-a-recurring-consultation",
+        "api-reference\\consultation\\get-all-record-for-consultation-property",
+        "api-reference\\consultation\\create-a-consultation-property",
+        "api-reference\\consultation\\get-a-consultation-property-single-record",
+        "api-reference\\consultation\\update-a-consultation-property-single-record",
+        "api-reference\\consultation\\delete-a-consultation-property-record"
+      ]
+    },
+    {
+      "group": "Reviews",
+      "pages": [
+        "api-reference\\reviews\\get-a-review",
+        "api-reference\\reviews\\create-a-new-review",
+        "api-reference\\reviews\\get-all-reviews-for-a-product",
+        "api-reference\\reviews\\get-review-information-for-a-provider-instructor-or-consultant-or-product",
+        "api-reference\\reviews\\delete-a-review"
+      ]
+    },
+    {
+      "group": "Payments",
+      "pages": [
+        "api-reference\\payments\\get-all-payment-records-for-a-user",
+        "api-reference\\payments\\post-payment",
+        "api-reference\\payments\\get-payment"
+      ]
+    },
+    {
+      "group": "Consultant",
+      "pages": [
+        "api-reference\\consultant\\create-a-new-consultant-profile",
+        "api-reference\\consultant\\get-availability-for-a-consultation",
+        "api-reference\\consultant\\set-availability-for-a-consultation",
+        "api-reference\\consultant\\get-calendar-events-for-a-consultant",
+        "api-reference\\consultant\\get-a-consultant-profile",
+        "api-reference\\consultant\\update-a-consultant-profile",
+        "api-reference\\consultant\\delete-a-consultant-profile"
+      ]
+    },
+    {
+      "group": "Notification",
+      "pages": [
+        "api-reference\\notification\\get-all-subscribers"
+      ]
+    },
+    {
+      "group": "Order",
+      "pages": [
+        "api-reference\\order\\get-order",
+        "api-reference\\order\\post-order",
+        "api-reference\\order\\get-order-1",
+        "api-reference\\order\\delete-order",
+        "api-reference\\order\\patch-order"
+      ]
+    },
+    {
+      "group": "Comments",
+      "pages": [
+        "api-reference\\comments\\subscribe-to-course-comments",
+        "api-reference\\comments\\get-all-comments",
+        "api-reference\\comments\\add-a-comment",
+        "api-reference\\comments\\delete-a-comment"
+      ]
+    },
+    {
+      "group": "Instructor",
+      "pages": [
+        "api-reference\\instructor\\get-instructor-profile",
+        "api-reference\\instructor\\create-a-new-instructor-profile",
+        "api-reference\\instructor\\update-instructor-profile",
+        "api-reference\\instructor\\delete-instructor-profile",
+        "api-reference\\instructor\\get-availability-for-a-consultation",
+        "api-reference\\instructor\\set-availability-for-a-consultation"
+      ]
+    },
+    {
+      "group": "Faq",
+      "pages": [
+        "api-reference\\faq\\get-faq",
+        "api-reference\\faq\\create-a-new-faq",
+        "api-reference\\faq\\get-faqtopics",
+        "api-reference\\faq\\get-faq-1",
+        "api-reference\\faq\\put-faq",
+        "api-reference\\faq\\delete-faq"
+      ]
+    },
+    {
+      "group": "Cart",
+      "pages": [
+        "api-reference\\cart\\get-all-cart-items-for-the-current-user",
+        "api-reference\\cart\\create-a-new-cart-item",
+        "api-reference\\cart\\get-a-specific-cart-item-by-its-id",
+        "api-reference\\cart\\delete-a-specific-cart-item-by-its-id"
+      ]
+    },
+    {
+      "group": "Category",
+      "pages": [
+        "api-reference\\category\\get-all-categories",
+        "api-reference\\category\\create-a-new-category",
+        "api-reference\\category\\get-all-subcategories-of-a-category",
+        "api-reference\\category\\get-a-category",
+        "api-reference\\category\\update-a-category",
+        "api-reference\\category\\delete-a-category"
+      ]
+    },
+    {
+      "group": "Marketplace",
+      "pages": [
+        "api-reference\\marketplace\\get-marketplacecourse",
+        "api-reference\\marketplace\\get-marketplaceconsultation"
+      ]
+    },
+    {
+      "group": "public",
+      "pages": [
+        "api-reference\\public\\get-a-specific-course-by-its-slug",
+        "api-reference\\public\\get-a-specific-consultation-by-its-slug"
+      ]
+    },
+    {
+      "group": "je",
+      "pages": [
+        "api-reference\\je\\get-novu",
+        "api-reference\\je\\post-novu",
+        "api-reference\\je\\options-novu"
       ]
     }
   ],
