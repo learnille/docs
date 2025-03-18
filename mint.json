@@ -50,15 +50,9 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "App",
       "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
+        "api-reference/app/get-debug-sentry"
       ]
     },
     {
@@ -146,6 +140,8 @@
         "api-reference/consultation/get-a-specific-consultation-by-its-id",
         "api-reference/consultation/update-a-consultation",
         "api-reference/consultation/delete-a-consultation",
+        "api-reference/consultation/get-availability-for-a-consultation",
+        "api-reference/consultation/update-availability-for-a-consultation",
         "api-reference/consultation/update-details-for-a-one-off-consultation",
         "api-reference/consultation/details-for-a-one-off-consultation",
         "api-reference/consultation/update-details-for-a-recurring-consultation",
@@ -176,9 +172,17 @@
       ]
     },
     {
+      "group": "Wallet",
+      "pages": [
+        "api-reference/wallet/get-payment-overview",
+        "api-reference/wallet/get-revenue-chart"
+      ]
+    },
+    {
       "group": "Consultant",
       "pages": [
         "api-reference/consultant/create-a-new-consultant-profile",
+        "api-reference/consultant/get-consultant-overview",
         "api-reference/consultant/get-availability-for-a-consultation",
         "api-reference/consultant/set-availability-for-a-consultation",
         "api-reference/consultant/get-calendar-events-for-a-consultant",
@@ -204,6 +208,13 @@
       ]
     },
     {
+      "group": "Impression",
+      "pages": [
+        "api-reference/impression/get-impressions",
+        "api-reference/impression/create-impression"
+      ]
+    },
+    {
       "group": "Comments",
       "pages": [
         "api-reference/comments/subscribe-to-course-comments",
@@ -220,7 +231,8 @@
         "api-reference/instructor/update-instructor-profile",
         "api-reference/instructor/delete-instructor-profile",
         "api-reference/instructor/get-availability-for-a-consultation",
-        "api-reference/instructor/set-availability-for-a-consultation"
+        "api-reference/instructor/set-availability-for-a-consultation",
+        "api-reference/instructor/get-overview-for-a-consultation"
       ]
     },
     {
@@ -266,6 +278,14 @@
       "pages": [
         "api-reference/public/get-a-specific-course-by-its-slug",
         "api-reference/public/get-a-specific-consultation-by-its-slug"
+      ]
+    },
+    {
+      "group": "je",
+      "pages": [
+        "api-reference/je/get-novu",
+        "api-reference/je/post-novu",
+        "api-reference/je/options-novu"
       ]
     }
   ],
