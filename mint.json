@@ -215,19 +215,10 @@
       ]
     },
     {
-      "group": "Comments",
-      "pages": [
-        "api-reference/comments/subscribe-to-course-comments",
-        "api-reference/comments/get-all-comments",
-        "api-reference/comments/add-a-comment",
-        "api-reference/comments/delete-a-comment"
-      ]
-    },
-    {
       "group": "Instructor",
       "pages": [
-        "api-reference/instructor/get-instructor-profile",
         "api-reference/instructor/create-a-new-instructor-profile",
+        "api-reference/instructor/get-instructor-profile",
         "api-reference/instructor/update-instructor-profile",
         "api-reference/instructor/delete-instructor-profile",
         "api-reference/instructor/get-availability-for-a-consultation",
