@@ -76,7 +76,21 @@
       "api-reference/course/create-a-course-property",
       "api-reference/course/get-a-course-property-single-record",
       "api-reference/course/update-a-course-property-single-record",
-      "api-reference/course/delete-a-course-property-record"
+      "api-reference/course/delete-a-course-property-record",
+      "api-reference/course/get-course-summaries",
+      "api-reference/course/get-instructor-statistics"
+    ]
+  },
+  {
+    "group": "Category",
+    "pages": [
+      "api-reference/category/get-all-categories",
+      "api-reference/category/create-a-new-category",
+      "api-reference/category/get-categories-by-product-type",
+      "api-reference/category/get-all-subcategories-of-a-category",
+      "api-reference/category/get-a-category",
+      "api-reference/category/update-a-category",
+      "api-reference/category/delete-a-category"
     ]
   },
   {
@@ -100,7 +114,9 @@
       "api-reference/consultation/create-a-consultation-property",
       "api-reference/consultation/get-a-consultation-property-single-record",
       "api-reference/consultation/update-a-consultation-property-single-record",
-      "api-reference/consultation/delete-a-consultation-property-record"
+      "api-reference/consultation/delete-a-consultation-property-record",
+      "api-reference/consultation/get-consultation-summaries",
+      "api-reference/consultation/get-consultant-statistics"
     ]
   },
   {
@@ -110,6 +126,7 @@
       "api-reference/reviews/create-a-new-review",
       "api-reference/reviews/get-all-reviews-for-a-product",
       "api-reference/reviews/get-review-information-for-a-provider-instructor-or-consultant-or-product",
+      "api-reference/reviews/get-review-statistics-with-optional-time-based-chart-data",
       "api-reference/reviews/delete-a-review"
     ]
   },
@@ -144,7 +161,9 @@
   {
     "group": "Notification",
     "pages": [
-      "api-reference/notification/get-all-subscribers"
+      "api-reference/notification/get-all-subscribers",
+      "api-reference/notification/get-notification-settings",
+      "api-reference/notification/update-notification-settings"
     ]
   },
   {
@@ -162,6 +181,13 @@
     "pages": [
       "api-reference/impression/get-impressions",
       "api-reference/impression/create-impression"
+    ]
+  },
+  {
+    "group": "Defaults",
+    "pages": [
+      "api-reference/defaults/get-all-learning-objectives",
+      "api-reference/defaults/get-all-skills"
     ]
   },
   {
@@ -194,17 +220,6 @@
       "api-reference/cart/create-a-new-cart-item",
       "api-reference/cart/get-a-specific-cart-item-by-its-id",
       "api-reference/cart/delete-a-specific-cart-item-by-its-id"
-    ]
-  },
-  {
-    "group": "Category",
-    "pages": [
-      "api-reference/category/get-all-categories",
-      "api-reference/category/create-a-new-category",
-      "api-reference/category/get-all-subcategories-of-a-category",
-      "api-reference/category/get-a-category",
-      "api-reference/category/update-a-category",
-      "api-reference/category/delete-a-category"
     ]
   },
   {

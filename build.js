@@ -17,8 +17,6 @@ try {
         { encoding: "utf-8" }
     ).trim();
 
-    console.log("Raw Output Preview:", rawOutput.slice(0, 500)); // Debugging: Show first 500 chars
-
     // Step 2: Extract only the JSON array from the output
     const jsonStart = rawOutput.indexOf("[");
     const jsonEnd = rawOutput.lastIndexOf("]") + 1; // Include the last closing bracket
